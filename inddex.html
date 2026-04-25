@@ -6,35 +6,45 @@
     <link rel="stylesheet" href="./static/css/ouput.css">
     <title>Document</title>
 </head>
-<body>
-    <div class="calculator">
-        <div class="display">
-            <input type="text" id="result" placeholder="0" readonly>
+<body class="flex items-center justify-center h-[100vh] ">
+    <div class="border rounded-2xl border-black px-10 py-10">
+        <div class="w-[500px]">
+            <input class="border rounded-2xl px-4 py-2 w-[500px] focus:outline-none focus:ring-2 text-right text-5xl font-semibold h-24 border-black " type="text" id="result" placeholder="0" readonly>
         </div>
-        <div class="buttons">
-            <button >AC</button>
-            <button >DEL</button>
-            <button >%</button>
-            <button >/</button>
-
-            <button >7</button>
-            <button >8</button>
-            <button >9</button>
-            <button >*</button>
-
-            <button >4</button>
-            <button >5</button>
-            <button >6</button>
-            <button >-</button>
-
-            <button >1</button>
-            <button >2</button>
-            <button >3</button>
-            <button >+</button>
-
-            <button >0</button>
-            <button >.</button>
-            <button >=</button>
+        <div class="flex flex-col mt-4">
+            <div class="grid grid-cols-4 gap-2 w-[500px] mt-4">
+                <button class="border rounded-2xl px-5 py-5 border-black text-4xl ">AC</button>
+                <button class="border rounded-2xl px-5 py-5 border-black text-4xl ">DEL</button>
+                <button class="border rounded-2xl px-5 py-5 border-black text-4xl ">%</button>
+                <button class="border rounded-2xl px-5 py-5 border-black text-4xl ">/</button>
+            </div>
+            
+            <div class="grid grid-cols-4 gap-2 w-[500px] mt-4">
+                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">7</button>
+                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">8</button>
+                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">9</button>
+                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">*</button>
+            </div>
+            
+            <div class="grid grid-cols-4 gap-2 w-[500px] mt-4">
+                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">4</button>
+                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">5</button>
+                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">6</button>
+                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">-</button>
+            </div>
+            
+            <div class="grid grid-cols-4 gap-2 w-[500px] mt-4">
+                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">1</button>
+                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">2</button>
+                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">3</button>
+                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">+</button>
+            </div>
+            
+            <div class="grid grid-cols-4 gap-2 w-[500px] mt-4">
+                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">0</button>
+                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">.</button>
+                <button class="border rounded-2xl px-5 py-5 w-[246px] border-black text-6xl">=</button>
+            </div>
         </div>
     </div>
 
