@@ -77,14 +77,6 @@ Open index.html
 * Building responsive UI with Tailwind CSS
 * Structuring a front-end project
 
----
-
-## 📸 Preview
-
-> Add a screenshot or GIF here
-
----
-
 ## 📬 Contact
 
 Feel free to reach out if you have questions or suggestions 🚀
