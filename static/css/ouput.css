@@ -553,3 +553,12 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.text-teal-600 {
+  --tw-text-opacity: 1;
+  color: rgb(13 148 136 / var(--tw-text-opacity));
+}
