@@ -41,7 +41,8 @@ It demonstrates:
 ```
 calculator/
 ├── index.html
-├── script.js
+├── static ├──  css ├── output.css
+           └── js ├── main.js
 └── README.md
 ```
 
@@ -52,13 +53,13 @@ calculator/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/calculator.git
+git clone https://github.com/kana-engineer/javascript-calculator.git
 ```
 
 2. Open the project
 
 ```bash
-cd calculator
+cd javascript-calculator
 ```
 
 3. Run in browser
