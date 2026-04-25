@@ -13,37 +13,37 @@
         </div>
         <div class="flex flex-col mt-4">
             <div class="grid grid-cols-4 gap-2 w-[500px] mt-4">
-                <button class="border rounded-2xl px-5 py-5 border-black text-4xl ">AC</button>
-                <button class="border rounded-2xl px-5 py-5 border-black text-4xl ">DEL</button>
-                <button class="border rounded-2xl px-5 py-5 border-black text-4xl ">%</button>
-                <button class="border rounded-2xl px-5 py-5 border-black text-4xl ">/</button>
+                <button onclick="clearDisplay()" class="border rounded-2xl px-5 py-5 border-black text-4xl ">AC</button>
+                <button onclick="deleteLast()" class="border rounded-2xl px-5 py-5 border-black text-4xl ">DEL</button>
+                <button onclick="appendCharacter('%')" class="border rounded-2xl px-5 py-5 border-black text-4xl ">%</button>
+                <button onclick="appendCharacter('/')" class="border rounded-2xl px-5 py-5 border-black text-4xl ">/</button>
             </div>
             
             <div class="grid grid-cols-4 gap-2 w-[500px] mt-4">
-                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">7</button>
-                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">8</button>
-                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">9</button>
-                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">*</button>
+                <button onclick="appendCharacter('7')" class="border rounded-2xl px-5 py-5 border-black text-6xl">7</button>
+                <button onclick="appendCharacter('8')" class="border rounded-2xl px-5 py-5 border-black text-6xl">8</button>
+                <button onclick="appendCharacter('9')" class="border rounded-2xl px-5 py-5 border-black text-6xl">9</button>
+                <button onclick="appendCharacter('*')" class="border rounded-2xl px-5 py-5 border-black text-6xl">*</button>
             </div>
             
             <div class="grid grid-cols-4 gap-2 w-[500px] mt-4">
-                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">4</button>
-                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">5</button>
-                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">6</button>
-                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">-</button>
+                <button onclick="appendCharacter('4')" class="border rounded-2xl px-5 py-5 border-black text-6xl">4</button>
+                <button onclick="appendCharacter('5')" class="border rounded-2xl px-5 py-5 border-black text-6xl">5</button>
+                <button onclick="appendCharacter('6')" class="border rounded-2xl px-5 py-5 border-black text-6xl">6</button>
+                <button onclick="appendCharacter('-')" class="border rounded-2xl px-5 py-5 border-black text-6xl">-</button>
             </div>
             
             <div class="grid grid-cols-4 gap-2 w-[500px] mt-4">
-                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">1</button>
-                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">2</button>
-                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">3</button>
-                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">+</button>
+                <button onclick="appendCharacter('1')" class="border rounded-2xl px-5 py-5 border-black text-6xl">1</button>
+                <button onclick="appendCharacter('2')" class="border rounded-2xl px-5 py-5 border-black text-6xl">2</button>
+                <button onclick="appendCharacter('3')" class="border rounded-2xl px-5 py-5 border-black text-6xl">3</button>
+                <button onclick="appendCharacter('+')" class="border rounded-2xl px-5 py-5 border-black text-6xl">+</button>
             </div>
             
             <div class="grid grid-cols-4 gap-2 w-[500px] mt-4">
-                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">0</button>
-                <button class="border rounded-2xl px-5 py-5 border-black text-6xl">.</button>
-                <button class="border rounded-2xl px-5 py-5 w-[246px] border-black text-6xl">=</button>
+                <button onclick="appendCharacter('0')" class="border rounded-2xl px-5 py-5 border-black text-6xl">0</button>
+                <button onclick="appendCharacter('.')" class="border rounded-2xl px-5 py-5 border-black text-6xl">.</button>
+                <button onclick="calculator()" class="border rounded-2xl px-5 py-5 w-[246px] border-black text-6xl">=</button>
             </div>
         </div>
     </div>
